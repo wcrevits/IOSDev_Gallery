@@ -8,10 +8,11 @@
 import Foundation
 
 @Observable
-class PathStore {
-    var path = [Route]()
+class PathStore{
+    var path = [Route]()
     
-    func clear() {
+    func clear(){
         path = []
     }
 }
+

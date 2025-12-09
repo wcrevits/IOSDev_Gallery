@@ -10,5 +10,5 @@ import Foundation
 
 struct Galleries: Codable {
 
-    var galleries : [Gallery]
+    var galleries = [Gallery]()
 }
